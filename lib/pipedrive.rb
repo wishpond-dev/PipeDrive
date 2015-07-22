@@ -93,3 +93,4 @@ require 'pipedrive/note'
 
 # Push
 require 'pipedrive/push_notification'
+require 'pipedrive/user'
