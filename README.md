@@ -4,7 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/dotpromo/pipedrive.rb.png)](https://codeclimate.com/github/dotpromo/pipedrive.rb)
 [![Coverage Status](https://img.shields.io/coveralls/dotpromo/pipedrive.rb.svg)](https://coveralls.io/r/dotpromo/pipedrive.rb)
 
-Pipedrive.com API wrapper
+Pipedrive is a Ruby wrapper for the Pipe Drive API.
 
 ## Installation
 
@@ -81,7 +81,7 @@ client.each(start: 100).select {|x| x['company_id'] == 12345}
 
 ### Rails integration
 
-If you need use only one pipedrive account for whole application, then you can create `config/initializer/pipedrive.rb` file with next content:
+If you need to use only one pipedrive account for whole application, you can create `config/initializer/pipedrive.rb` file with next content:
 
 ```ruby
 Pipedrive.setup do |n|
